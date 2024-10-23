@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="bookstore:war" />
+      <artifact name="bookstore:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fe3513ee-89c9-4031-89e9-ee3b741cdf3d" name="Changes" comment="feat. 헤더 링크 &#10;&#10;fix. 메인 한글 깨짐 오류 수정">
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/purchase/dao/BoardDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/purchase/dao/BoardDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/qna/dao/QnaDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/qna/dao/QnaDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/qna/detail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/qna/detail.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/qna/form-report.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/qna/form-report.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/qna/form.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/qna/form.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/qna/insert-reply.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/qna/insert-reply.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/qna/insert.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/qna/insert.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/qna/list-report.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/qna/list-report.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/qna/modify-form-report.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/qna/modify-form-report.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/qna/modify-form.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/qna/modify-form.jsp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="JspContextManager">
+    <jsp-to-context jsp-file="file://$PROJECT_DIR$/src/main/webapp/common/header.jsp" context-file="file://$PROJECT_DIR$/src/main/webapp/index.jsp" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2lrnBF6JKqxLpCNrXoeJkmx7L2z" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder0": "0",
+    "FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder1": "1",
+    "FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder2": "2",
+    "FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder3": "3",
+    "FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder4": "4",
+    "FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder5": "5",
+    "FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth0": "300",
+    "FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth1": "300",
+    "FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth2": "300",
+    "FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth3": "299",
+    "FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth4": "300",
+    "FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth5": "300",
+    "FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder0": "0",
+    "FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder1": "1",
+    "FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder2": "2",
+    "FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder3": "3",
+    "FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder4": "4",
+    "FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder5": "5",
+    "FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth0": "300",
+    "FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth1": "300",
+    "FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth2": "300",
+    "FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth3": "299",
+    "FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth4": "300",
+    "FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth5": "300",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Tomcat Server.Tomcat 10.1.26.executor": "Run",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/projects/semi-workspace/bookstore",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "oracle"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\projects\semi-workspace\bookstore\src\main\webapp\images" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 10.1.26" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.26" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="bookstore:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="0ade21d9-1951-4448-a50e-159f3781cc04" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="49850" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="bookstore:war exploded" />
+          <artifact name="bookstore:war" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.21829.142" />
+        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-IU-242.21829.142" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\jhta\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+    <option name="UPDATE_DEPTH" value="files" />
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="C:\projects\semi-workspace\bookstore" />
+          <option name="myCopyRoot" value="C:\projects\semi-workspace\bookstore" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="C:\projects\semi-workspace\bookstore" />
+          <option name="myCopyRoot" value="C:\projects\semi-workspace\bookstore" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fe3513ee-89c9-4031-89e9-ee3b741cdf3d" name="Changes" comment="" />
+      <created>1725946925465</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1725946925465</updated>
+      <workItem from="1725946926530" duration="24000" />
+      <workItem from="1725948000144" duration="10257000" />
+      <workItem from="1726037020327" duration="2933000" />
+      <workItem from="1726039971680" duration="6130000" />
+      <workItem from="1726116133249" duration="3036000" />
+      <workItem from="1726791014781" duration="56000" />
+    </task>
+    <task id="LOCAL-00001" summary="feat. 기본 레이아웃 커밋&#10; common/common.jsp로 메타태그 내 소스 관리&#10; common/header.jsp, footer.jsp include&#10; image, css파일 추가">
+      <option name="closed" value="true" />
+      <created>1726037979299</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1726037979299</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat. 헤더 로그인,회원가입 링크 추가&#10;&#10;fix. 메인 한글 깨짐 오류 수정">
+      <option name="closed" value="true" />
+      <created>1726039884145</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1726039884145</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat. 헤더 로그인,회원가입 링크 추가&#10;&#10;fix. 메인 한글 깨짐 오류 수정">
+      <option name="closed" value="true" />
+      <created>1726044390638</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1726044390638</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat. 기본 레이아웃 커밋&#10; common/common.jsp로 메타태그 내 소스 관리&#10; common/header.jsp, footer.jsp include&#10; image, css파일 추가" />
+    <MESSAGE value="feat. 로그인폼 UI 추가&#10;&#10;fix. 헤더 gnb 링크 sell&lt;-&gt;purchase switch&#10; contentType 오류 해결" />
+    <MESSAGE value="feat. 로그인 폼 UI 추가" />
+    <MESSAGE value="feat. 로그인 UI 추가&#10;&#10;fix. header purchase&lt;-&gt;sell link switch&#10; contentType 오류 해결" />
+    <MESSAGE value="feat. 헤더 메뉴 링크 변경&#10;&#10;fix. contentType 중복 오류 해결" />
+    <MESSAGE value="feat: 헤더 링크 연결 수정&#10;&#10;fix: contentType 중복 오류 해결" />
+    <MESSAGE value="feat: 헤더 링크 추가 수정&#10;&#10;fix: contentType 중복 오류 해결" />
+    <MESSAGE value="feat. 헤더 링크 추가" />
+    <MESSAGE value="feat: 헤더 링크 추가 수정&#10;&#10;fix. contentType 중복 오류 해결" />
+    <MESSAGE value="feat. 헤더 로그인,회원가입 링크 추가&#10;&#10;fix. 메인 한글 깨짐 오류 수정" />
+    <MESSAGE value="feat. 헤더 링크 &#10;&#10;fix. 메인 한글 깨짐 오류 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat. 헤더 링크 &#10;&#10;fix. 메인 한글 깨짐 오류 수정" />
+  </component>
+</project>
